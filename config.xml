@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.ryangray.notivent" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Notivent</name>
+    <description>
+        Event and calendar notification
+    </description>
+    <author email="fiveironfrnzy08@gmail.com" href="http://ryangray.org">
+        Ryan Gray
+    </author>
+    <content src="index.html" />
+
+    <access origin="*" />
+    <allow-navigation href="*:*" />
+    <access launch-external="yes" origin="*" />
+
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.Notification" />
+    </feature>
+    <feature name="Notification">
+        <param name="ios-package" value="CDVNotification" />
+    </feature>
+
+    <plugin name="cordova-plugin-whitelist" spec="^1.0.0" />
+    <plugin name="hu.dpal.phonegap.plugins.SpinnerDialog" spec="^1.3.1" />
+</widget>

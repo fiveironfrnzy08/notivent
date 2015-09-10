@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Zipps Liquors - ECPv3.11.2//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Zipps Liquors
+X-ORIGINAL-URL:http://www.zippsliquors.com
+X-WR-CALDESC:Events for Zipps Liquors
+BEGIN:VEVENT
+DTSTART:20150821T210000Z
+DTEND:20150822T000000Z
+DTSTAMP:20150817T003650Z
+CREATED:20150721T170822Z
+LAST-MODIFIED:20150721T170822Z
+UID:2682-1440190800-1440201600@www.zippsliquors.com
+SUMMARY:Oeno Wine Sampling
+DESCRIPTION:Our friend and yours Staci will be here pouring some fantastic wines just for you! Stop by and soak up her good vibes. Or to drink some wine. Whatever works for you!
+URL:http://www.zippsliquors.com/event/oeno-wine-sampling-3/
+LOCATION:2618 East Franklin Ave\, Minneapolis\, MN\, 55406\, United States
+CATEGORIES:Wine
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150828T210000Z
+DTEND:20150829T000000Z
+DTSTAMP:20150817T003650Z
+CREATED:20150721T171203Z
+LAST-MODIFIED:20150721T171203Z
+UID:2684-1440795600-1440806400@www.zippsliquors.com
+SUMMARY:Libation Project Wine Sampling
+DESCRIPTION:Our main man Chris Foster will be in store representing his company Libation Project and tasting out some of the incredible wines he has. Make sure to stop in and check out his extensive portfolio of delicious beverages as well as his handsome face!
+URL:http://www.zippsliquors.com/event/libation-project-wine-sampling-2/
+LOCATION:2618 East Franklin Ave\, Minneapolis\, MN\, 55406\, United States
+CATEGORIES:Wine
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150829T190000Z
+DTEND:20150829T210000Z
+DTSTAMP:20150817T003650Z
+CREATED:20150721T171546Z
+LAST-MODIFIED:20150721T171546Z
+UID:2685-1440874800-1440882000@www.zippsliquors.com
+SUMMARY:Big MN Beer Sampling
+DESCRIPTION:It's the biggest local beer tasting we've ever done! We'll be hosting over a dozen MN breweries with pretty much everybody you know and love. Surly? We got 'em. Indeed? YUP. Fair State? Fo sho! Stop down to sample some truly great local beers.
+URL:http://www.zippsliquors.com/event/big-mn-beer-sampling/
+LOCATION:2618 East Franklin Ave\, Minneapolis\, MN\, 55406\, United States
+CATEGORIES:Beer
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+{
+  "name": "notivent",
+  "version": "2.10.1",
+  "private": true,
+  "dependencies": {
+    "ical": "~0.4.0"
+  },
+  "description": "Event and calendar notification",
+  "main": "app.js",
+  "author": "Ryan Gray",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

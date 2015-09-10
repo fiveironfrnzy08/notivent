@@ -1,0 +1,10 @@
+<!--
+  This template loads for the 'tab.adopt' state (app.js)
+-->
+<ion-view title="Settings">
+  <ion-content has-tabs="true">
+      Auth Type: {{authType}}
+      Error: {{error}}
+      <ion-delete-button ng-click="deleteSyncToken()">Delete Sync Token</ion-delete-button>
+  </ion-content>
+</ion-view>
