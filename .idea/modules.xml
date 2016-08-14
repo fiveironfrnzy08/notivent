@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/whosin.iml" filepath="$PROJECT_DIR$/.idea/whosin.iml" />
+      <module fileurl="file://$USER_HOME$/WS/notivent/.idea/Notivent.iml" filepath="$USER_HOME$/WS/notivent/.idea/Notivent.iml" />
     </modules>
   </component>
 </project>

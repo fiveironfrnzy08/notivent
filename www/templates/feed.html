@@ -5,13 +5,6 @@
   <ion-content has-tabs="true">
       Auth Type: {{authType}}
       Error: {{error}}
-      <ion-list>
-          <ion-item class="item-stable" ng-repeat-start="cal in cals" ng-click="toggleFeed(cal.id)">
-              Calendar {{$index}} - ({{cal.items.length}} items)
-          </ion-item>
-          <ion-item class="item-accordion" ng-repeat-end ng-show="isFeedShown(cal.id)" ng-repeat="event in cal.items">
-              {{event.summary}} -- {{event.start.dateTime}}
-          </ion-item>
-      </ion-list>
+      {{result}}
   </ion-content>
 </ion-view>

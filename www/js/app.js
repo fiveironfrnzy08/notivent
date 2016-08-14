@@ -1,14 +1,14 @@
-var ngDocument = angular.element(document);
-
-angular.element(ngDocument).ready(function() {
-	ngDocument.on('deviceready', function() {
-		var body = ngDocument.find('body');
+angular.element(document).ready(function() {
+	document.addEventListener('deviceready', function () {
+		var body = $(document).find('body');
 		angular.bootstrap(body, ['notivent']);
-	});
+	}, false);
 });
 
 angular.module('notivent', [
 	'ionic',
+	'ionic.service.core',
+	'ionic.service.push',
 	'ngCordova',
 	'notivent.services',
 	'notivent.directives',
@@ -48,8 +48,6 @@ angular.module('notivent', [
 		$urlRouterProvider.otherwise('/tab/feed');
 
 	})
-	.run(function($ionicPlatform) {
-		//$ionicPlatform.ready(function() {
-			window.spinner = plugins.spinnerDialog;
-		//}, false);
+	.run(function() {
+		window.spinner = plugins.spinnerDialog;
 	});

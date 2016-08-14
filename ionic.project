@@ -1,15 +1,4 @@
 {
-    "name": "whosin",
-    "app_id": "",
-    "proxies": [{
-        "path": "/feed",
-        "proxyUrl": "http://www.zippsliquors.com"
-    },{
-        "path": "/feed/atom",
-        "proxyUrl": "http://www.zippsliquors.com"
-    },{
-        "path": "/calendar/ical/apol5ib4uajkjs73m8fjtqq7cg%40group.calendar.google.com/public/basic.ics",
-        "proxyUrl": "https://www.google.com"
-    }]
-
+  "name": "Notivent",
+  "app_id": "fc6df229"
 }
